@@ -1,0 +1,61 @@
+#heroVideo {
+    height: calc(100vh - 120px);
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 4;
+    margin-top: 100px;
+  }
+  
+
+#heroVideo video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    object-fit: cover;
+}
+
+#heroVideo .caption {
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    color: #ffffff;
+}
+
+#heroVideo .caption h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+}
+
+#heroVideo .caption h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    #heroVideo {
+      height: calc(100vh - 80px); 
+      margin-top: 80px;
+    }
+  
+    #heroVideo video {
+      height: 100%;
+    }
+  
+    #heroVideo .caption h1 {
+      font-size: 1.5em;
+    }
+  
+    #heroVideo .caption h2 {
+      font-size: 1.2rem;
+    }
+  }

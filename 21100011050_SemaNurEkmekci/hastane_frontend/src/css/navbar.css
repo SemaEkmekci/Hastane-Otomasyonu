@@ -1,0 +1,277 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+  }
+  
+  :root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #2ba9dbe5;
+	--textColor: #eee;
+  }
+
+  .top-navbar {
+	background-image: url('../images/header_1920px.webp');
+	background-position: center;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+  }
+  
+.menu-bar{
+	padding-top: 10px;
+	width: 50px;
+}
+
+  header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+	width: 100%;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	position: fixed;
+	top: 60px;
+	z-index: 1000;
+  }
+   
+  .header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+	width: 100%;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	position: fixed;
+	z-index: 1000;
+  }
+
+  nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+  }
+  
+  nav a:hover {
+	color: var(--secondaryColor);
+  }
+  
+  header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+  }
+
+  .header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+  }
+  
+  header div,
+  nav {
+	display: flex;
+	align-items: center;
+	text-align: end
+  }
+  
+  .header div,
+  nav {
+	display: flex;
+	align-items: center;
+	text-align: end
+  }
+  
+  .user-info {
+	float: right;
+	cursor: pointer;
+  }
+  
+
+  .button-form {
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 500;
+	color: black;
+	padding: 8px;
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+	background: #8e9aa5;
+  }
+  
+  .button-form:hover {
+	color: #fff;
+	background: #0867ba;
+  }
+
+  .logo {
+	position: relative;
+	z-index: 999;
+  }
+
+  .logo2 {
+	position: relative;
+	z-index: 999; 
+  }
+
+  .logo2 {
+	margin-top: 27px;
+  }
+  .hc-top-header {
+    background-image: url('../images/header_1920px.png');
+    background-position: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+.hc-top-head-div {
+    padding: 5px 0px;
+}
+.hc-top-head-div p {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+}
+.hc-top-head-div span svg {
+    width: 14px;
+    height: 14px;
+    fill: #fff;
+}
+.hc-top-head-div span {
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 29px;
+    height: 29px;
+    background: #fd9678;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.hc-top-head-right {
+    text-align: right;
+}
+.hc-top-header .row,
+.hc-main-header .row {
+    align-items: center;
+}
+.hc-logo {
+    width: 116px;
+    height: 116px;
+    position: absolute;
+    transition: all ease .3s;
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+	  height: 80px;
+	  padding: 10px;
+	}
+	.header {
+		height: 80px;
+		padding: 10px;
+	}
+  
+	.logo {
+	  margin-bottom: 20px;
+	}
+
+	.logo2 {
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+  
+	nav {
+	  position: static;
+	  display: none;
+	  width: 100%;
+	  flex-direction: column;
+	  align-items: center;
+	  gap: 1rem;
+	  background-color: var(--mainColor);
+	  text-align: center;
+	  padding-top: 20px;
+	}
+  
+	header .nav-btn {
+	  visibility: visible;
+	  opacity: 1;
+	  position: relative;
+	  z-index: 1500;
+	}
+	
+	.header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+		position: relative;
+		z-index: 1500;
+	  }
+
+	header .show {
+	  transform: none;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  height: 100vh;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  background-color: var(--mainColor);
+	  padding-top: 80px; /* Adjust as needed */
+	}
+
+	.header .show {
+		transform: none;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: var(--mainColor);
+		padding-top: 80px; /* Adjust as needed */
+	}
+  
+	nav a {
+	  font-size: 1.2rem;
+	  margin: 0.5rem;
+	}
+  
+	.menu-btn {
+	  display: block;
+	}
+  
+
+  }
+  

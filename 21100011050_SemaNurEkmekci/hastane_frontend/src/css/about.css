@@ -1,0 +1,14 @@
+.foto {
+    max-width: 100%;
+    height: 600px;
+    width: 600px;
+    display: block;
+    margin: 150px auto 20px;
+  }
+  
+  .hs_heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }

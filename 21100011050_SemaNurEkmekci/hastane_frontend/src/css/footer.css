@@ -1,0 +1,115 @@
+.hc-footer {
+    background: #202638;
+}
+.hc-footer-logo {
+    text-align: center;
+}
+.hc-footer-logo img {
+    height: 65px;
+}
+.hc-footer-contact-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #323d4c;
+    border-bottom: 1px solid #323d4c;
+}
+.hc-foot-contact-box h2,
+.hc-foot-contact-box p,
+.hc-footer-links li a {
+    color: #fff;
+}
+
+.hc-foot-contact-box h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.hc-foot-contact-box p {
+    margin-bottom: 0;
+}
+.hc-footer-links {
+    padding-top: 40px;
+}
+.hc-footer-contact-list li {
+    border-right: 1px solid #323d4c;
+}
+.hc-footer-contact-list li:last-child {
+    border: none;
+}
+.hc-footer-links li {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+.hc-footer-links li:last-child {
+    margin-bottom: 0;
+}
+.hc-footer-links li:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 10px;
+    height: 2px;
+    background: #3a3bfb;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.d-flex {
+    margin-top: 20px !important;
+}
+
+.a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.beyaz-cizgi {
+    width: 100%;
+    height: 3px;
+    background-color: #490bad; 
+}
+
+/* Mobil Uyumlu Stillendirme */
+@media screen and (max-width: 768px) {
+    .hc-footer-contact-list {
+      display: block; /* Dikey düzen */
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-top: 1px solid #323d4c;
+      border-bottom: 1px solid #323d4c;
+    }
+  
+    .hc-footer-contact-list li {
+      border: none;
+      margin-bottom: 20px;
+    }
+  
+    .hc-foot-contact-box {
+      text-align: center;
+    }
+  
+    .hc-foot-contact-box h2 {
+      font-size: 18px; 
+    }
+  
+    .hc-foot-contact-box p {
+      margin: 10px 0; 
+    }
+  
+    .hc-footer-links li {
+      padding-left: 0; 
+      text-align: center; 
+    }
+  
+    .hc-footer-links li:before {
+      display: none;
+    }
+  }
+  
