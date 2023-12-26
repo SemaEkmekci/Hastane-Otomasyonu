@@ -25,9 +25,12 @@ npm run dev
 [Nöbetçi Eczanler]![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/c9f521e6-a95a-4035-8187-f342d3ab0f54)
 ![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/637e08b1-374c-4e73-96dc-4a2a530dd655)
 
-[Randevu Detayları]![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/56357409-0d70-41e2-9f52-b461cda6a6a1)![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/25cb8628-a738-4025-8deb-1190521b4f0b)
+[Randevu Detayları]
+![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/34246000-6dfe-42f0-b138-26714b59330c)
+![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/25cb8628-a738-4025-8deb-1190521b4f0b)
 
-[Bilgi Güncelle]![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/f05812a2-67ac-4c9f-b7e3-0ac61f309788)![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/1bd9d3ed-1f78-4b50-a2f2-4bd70303c1df)
+[Bilgi Güncelle]![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/03241468-095d-4ffa-8314-50638f5b493e)
+![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/1bd9d3ed-1f78-4b50-a2f2-4bd70303c1df)
 
 
 
