@@ -15,7 +15,9 @@ function Navbar() {
   const [isInputDisabled, setIsInputDisabled] = useState(true);
   const [updateTelefon, setUpdateTelefon] = useState('');
   const [updateEmail, setUpdateEmail] = useState('');
-  const [age, setAge] = useState('');
+  const [age, setName] = useState('');
+  const [name, setSurname] = useState('');
+  const [surname, setAge] = useState('');
   const navRef = useRef();
   const [showMenu, setShowMenu] = useState(false);
   const [modalAppointment, setModalAppointment] = useState(false); //Randevular Modalı
@@ -57,8 +59,12 @@ function Navbar() {
           const response = await axios.get(`http://localhost/hastane_backend/getUserData.php?id=${userID}`);
           setUserInfo(response.data);
           const userBirthDate = response.data && response.data[0] && response.data[0]['dogum_tarihi'];
+          const name = response.data && response.data[0] && response.data[0]['ad'];
+          const surname = response.data && response.data[0] && response.data[0]['soyad'];
           const userAge = calculateAge(userBirthDate);
           setAge(userAge);
+          setName(name);
+          setSurname(surname);
         } 
         else if (!userID) {
           window.location.href = '/login-or-register';
@@ -335,7 +341,7 @@ function Navbar() {
         </ModalBody>
       </Modal>
 
-      <HomeProfile age={age} />
+      <HomeProfile info={[age, name, surname]}/>
     </div>
 
   );
