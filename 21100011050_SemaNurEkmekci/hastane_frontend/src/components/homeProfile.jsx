@@ -4,7 +4,7 @@ import Swal from 'sweetalert2';
 import profile from '../images/profile.webp';
 import '../css/homeProfile.css';
 
-function HomeProfile({ age }) {
+function HomeProfile({ info }) {
 
   const [modalBMI, setModalBMI] = useState(false);
   const [weight, setWeight] = useState(0); //kilo
@@ -62,13 +62,13 @@ function HomeProfile({ age }) {
           >
           </div>
           <div className="profile-usertitle">
-            <div className="profile-usertitle-name font-rc">SEMA NUR EKMEKCİ</div>
+            <div className="profile-usertitle-name font-rc">{info[0] + " " + info[1]}</div>
             
           </div>
         
         </div>
         <div className="full-box bb" style={{ verticalAlign: "top" }}>
-        <span className="text-big">{age}</span>
+        <span className="text-big">{info[2]}</span>
           <span className="text-small">Yaş</span>
         </div>
 
