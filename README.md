@@ -1,4 +1,4 @@
-![image](https://github.com/SemaEkmekci/Hastane-Otomasyonu/assets/94064744/f37a3d26-a4e2-44d8-80ef-11c420772023)# Hastane-Otomasyonu
+# Hastane-Otomasyonu
 NEÜ_Web_Programlama_Final_Projesi
 
 Necmettin Erbakan Üniversitesi Bilgisayar Mühendisliği 5.dönem seçmeli dersi olan "Web Programlama" dersi final projesi için geliştirilmiştir. 
