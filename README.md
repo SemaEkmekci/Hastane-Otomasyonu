@@ -7,6 +7,8 @@ Necmettin Erbakan Üniversitesi Bilgisayar Mühendisliği 5.dönem seçmeli ders
 cd .\hastane\frontend\
 npm run dev
 
+hastane_backend klasörü appServ klasörünün içinde içinde www klasörünün içinde olmalıdır.
+
 
 ## Ekran Görüntüleri
 
